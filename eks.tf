@@ -20,7 +20,7 @@ resource aws_iam_role "iam_for_eks" {
   assume_role_policy = data.aws_iam_policy_document.iam_policy_eks.json
   tags = {
     git_commit           = "d68d2897add9bc2203a5ed0632a5cdd8ff8cefb0"
-    git_file             = "terraform/aws/eks.tf"
+    git_file             = "mlamb18/mlamb18/eks.tf"
     git_last_modified_at = "2020-06-16 14:46:24"
     git_last_modified_by = "mathew.lamb87@gmail.com"
     git_modifiers        = "mlamb"
